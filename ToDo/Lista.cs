@@ -9,14 +9,13 @@ namespace EspacioTareas
         private int tareaID;
         private string descripcion;
         private int duracion;
-        int contadorID = 1;
+
 
         public string Descripcion { get => descripcion; set => descripcion = value; }
         public int TareaID { get => tareaID; set => tareaID = value; }
         public int Duracion { get => duracion; set => duracion = value; }
-
-
-        public Tarea(string Descipción, int Duracion)
+        static int contadorID = 1;
+        public Tarea(string Descripcion, int Duracion)
         {
             TareaID = contadorID;
             contadorID++;
@@ -29,7 +28,7 @@ namespace EspacioTareas
         public static string descripcionAleatoria()
         {
             string descripcionGenerada;
-            switch (RandomNumberGenerator.GetInt32(0, 9))
+            switch (RandomNumberGenerator.GetInt32(0, 13))
             {
 
                 case 0:
@@ -59,6 +58,18 @@ namespace EspacioTareas
                 case 8:
                     descripcionGenerada = "Considerar dejar la carrera";
                     break;
+                case 9:
+                    descripcionGenerada = "Ver animes pendientes";
+                    break;
+                case 10:
+                    descripcionGenerada = "Gastarse toda la plata en jueguitos";
+                    break;
+                case 11:
+                    descripcionGenerada = "Organizar una sesión de D&D";
+                    break;
+                 case 12:
+                    descripcionGenerada = "Llorar en silencio";
+                    break;    
                 default:
                     descripcionGenerada = "Esta descripción significa que algo salió mal :(";
                     break;

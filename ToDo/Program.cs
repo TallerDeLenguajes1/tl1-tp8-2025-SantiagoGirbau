@@ -7,7 +7,7 @@ List<Tarea> tareasCompletadas = new List<Tarea>();
 Console.WriteLine("Hello, World!");
 for (int i = 0; i < cantidadDeTareas; i++)
 {
-    tareasPendientes.Add(new Tarea(RandomNumberGenerator.GetInt32(1, 24)));
+    tareasPendientes.Add(new Tarea(Tarea.descripcionAleatoria(), RandomNumberGenerator.GetInt32(1, 24)));
 }
 
 foreach (var tarea in tareasPendientes)

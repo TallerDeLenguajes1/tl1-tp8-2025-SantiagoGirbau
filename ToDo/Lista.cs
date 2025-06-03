@@ -26,7 +26,7 @@ namespace EspacioTareas
 
 
 
-        public string descripcionAleatoria()
+        public static string descripcionAleatoria()
         {
             string descripcionGenerada;
             switch (RandomNumberGenerator.GetInt32(0, 9))

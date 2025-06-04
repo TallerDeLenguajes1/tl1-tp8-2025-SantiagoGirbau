@@ -68,7 +68,7 @@ void mostrarLista(List<Tarea> Lista)
 
 void mostrarTarea(Tarea tarea)
 {
-    Console.WriteLine($"ID: {tarea.TareaID} Descripción: {tarea.Descripcion}");
+    Console.WriteLine($"ID: {tarea.TareaID} Descripción: {tarea.Descripcion} - {tarea.Duracion} hs");
 }
 
 int buscarTarea(List<Tarea> Lista)
@@ -87,6 +87,7 @@ int buscarTarea(List<Tarea> Lista)
     Console.WriteLine("No se encontró una tarea con esa palabra clave");
     return -1;
 }
+
 int LeerNumeroMenorOIgualQue(int maximo)
 {
     int a;

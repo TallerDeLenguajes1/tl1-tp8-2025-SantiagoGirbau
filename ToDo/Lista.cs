@@ -28,7 +28,7 @@ namespace EspacioTareas
         public static string descripcionAleatoria()
         {
             string descripcionGenerada;
-            switch (RandomNumberGenerator.GetInt32(0, 13))
+            switch (RandomNumberGenerator.GetInt32(0, 16))
             {
 
                 case 0:
@@ -67,13 +67,21 @@ namespace EspacioTareas
                 case 11:
                     descripcionGenerada = "Organizar una sesión de D&D";
                     break;
-                 case 12:
+                case 12:
                     descripcionGenerada = "Llorar en silencio";
-                    break;    
+                    break;
+                case 13:
+                    descripcionGenerada = "Jugar una run del mazo negro del Balatro";
+                    break;
+                case 14:
+                    descripcionGenerada = "Admirar mi RTX 3070TI EVGA RGB 12GB trple fan";
+                    break;
+                case 15:
+                    descripcionGenerada = "Acariciar a Pipo";
+                    break;
                 default:
                     descripcionGenerada = "Esta descripción significa que algo salió mal :(";
                     break;
-
             }
             return descripcionGenerada;
         }

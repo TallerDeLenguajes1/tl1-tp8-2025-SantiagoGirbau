@@ -1,0 +1,15 @@
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\CalucladoraHistorial.GeneratedMSBuildEditorConfig.editorconfig
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\CalucladoraHistorial.AssemblyInfoInputs.cache
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\CalucladoraHistorial.AssemblyInfo.cs
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\CalucladoraHistorial.csproj.CoreCompileInputs.cache
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\CalucladoraHistorial.sourcelink.json
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\bin\Debug\net8.0\CalucladoraHistorial.exe
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\bin\Debug\net8.0\CalucladoraHistorial.deps.json
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\bin\Debug\net8.0\CalucladoraHistorial.runtimeconfig.json
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\bin\Debug\net8.0\CalucladoraHistorial.dll
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\bin\Debug\net8.0\CalucladoraHistorial.pdb
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\CalucladoraHistorial.dll
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\refint\CalucladoraHistorial.dll
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\CalucladoraHistorial.pdb
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\CalucladoraHistorial.genruntimeconfig.cache
+A:\Santiago\Facultad\Informática\Tercero\Taller1\TP8\tl1-tp8-2025-SantiagoGirbau\CalucladoraHistorial\obj\Debug\net8.0\ref\CalucladoraHistorial.dll

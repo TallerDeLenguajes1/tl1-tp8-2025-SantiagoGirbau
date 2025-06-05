@@ -24,8 +24,9 @@ do
         case "mostrar":
             Console.WriteLine("-------------------------------TAREAS PENDIENTES-------------------------------------");
             mostrarLista(tareasPendientes);
-            Console.WriteLine("-------------------------------TAREAS COMPLETADAS-------------------------------------");
+            Console.WriteLine("-------------------------------TAREAS COMPLETADAS------------------------------------");
             mostrarLista(tareasCompletadas);
+            Console.WriteLine("-------------------------------------------------------------------------------------");
             break;
         case "buscar":
             int found = buscarTarea(tareasPendientes);
@@ -45,11 +46,11 @@ do
 void moverTareas(List<Tarea> tareasPendientes, List<Tarea> tareasCompletadas)
 {
     int input;
-    int cantidad = tareasPendientes.Count;
+    
     do
     {
         Console.WriteLine("Escriba la ID de la tarea (Escriba 0 para salir)");
-        input = LeerNumeroMenorOIgualQue(cantidad);
+        input = LeerNumeroMenorOIgualQue(tareasPendientes);
         if (input > 0)
         {
             tareasCompletadas.Add(tareasPendientes[input - 1]); //Ya que no uso la ID 0 para usarlo de exit
@@ -88,7 +89,7 @@ int buscarTarea(List<Tarea> Lista)
     return -1;
 }
 
-int LeerNumeroMenorOIgualQue(int maximo)
+int LeerNumeroMenorOIgualQue(List<Tarea> maximo)
 {
     int a;
     bool Resultado;
@@ -96,10 +97,10 @@ int LeerNumeroMenorOIgualQue(int maximo)
     {
         Console.WriteLine("Escriba un numero: ");
         Resultado = int.TryParse(Console.ReadLine(), out a);
-        if (!Resultado || a > maximo)
+        if (!Resultado || a > maximo.Count)
         {
             Console.WriteLine("No es un número válido");
         }
-    } while (!Resultado || a > maximo);
+    } while (!Resultado || a > maximo.Count);
     return a;
 }
